@@ -1,3 +1,4 @@
+//NO TOMAR EN CUENTA POR FIS, SON LOS OTROS
 // Ejercicio 2. Pide el puntaje de un jugador (1-5 estrellas) y muestra un mensaje acorde a su desempeño
 
 #include <iostream>
