@@ -5,13 +5,13 @@ using namespace std;
 
 int main()
 {
-    int score;
-    cout << "What was your score? (1-5 stars)" << endl;
-    cin >> score; 
+    int score; //Declaracion de variables
+    cout << "What was your score? (1-5 stars)" << endl; 
+    cin >> score; //El usuario ingresa su score
 
-    switch (score)
+    switch (score) //switch para hacer cada caso dependiendo de las estrellas que obtuvo el jugador
     {
-    case 1:
+    case 1: //Un caso por estrella, se da el mensaje acorde
         {cout << "You only got 1 star. Keep trying" << endl;
         break;}
 
@@ -31,7 +31,7 @@ int main()
         cout << "Excellent!! You nailed it:)" << endl; 
         break;
 
-    default:
+    default: //en caso que escriba un numero que no este en el rango entre 1 y 5
         cout << "Insert a valid answer" << endl; 
     }
 
